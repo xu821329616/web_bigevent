@@ -64,9 +64,9 @@ $(function () {
           return layer.msg("登录失败");
         }
         layer.msg("登录成功！");
+        // 登录成功将token字段保存在localStroge中
+        localStorage.setItem("token", res.token);
         // 登录成功之后跳转到index页面
-        console.log("ok");
-        // 跳转到主页
         location.href = "/bigThing/index.html";
       },
     });

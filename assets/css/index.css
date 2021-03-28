@@ -1,0 +1,50 @@
+.iconfont {
+  margin-right: 8px;
+}
+
+.layui-icon {
+  margin-left: 20px;
+  margin-right: 8px;
+}
+
+.layui-footer {
+  text-align: center;
+}
+
+.fm {
+  width: 100%;
+  height: 100%;
+}
+
+.layui-body {
+  overflow: hidden;
+}
+
+a {
+  transition: none !important;
+}
+
+.user-info {
+  width: 200px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+}
+
+.avater {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 50%;
+  font-size: 20px;
+  text-align: center;
+  margin-right: 5px;
+  background-color: #009688;
+  position: relative;
+  top: 2px;
+}
+
+.layui-side-scroll .user-info {
+  border: 1px solid #282b33;
+}
