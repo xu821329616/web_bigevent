@@ -13,7 +13,7 @@ $.ajaxPrefilter(function (options) {
 
   // 控制用户访问权限，
   options.complete = function (res) {
-    console.log(res.responseJSON);
+    // console.log(res.responseJSON);
     if (
       res.responseJSON.status === 1 &&
       res.responseJSON.message === "身份认证失败！"

@@ -51,7 +51,7 @@ function getUserInfo(user) {
   // 判断个人信息中有没有用户头像，如果有用户头像就渲染到页面
   if (user.user_pic !== null) {
     $(".avater").hide();
-    $(".layui-nav-img").attr("src", "user.user_pic").show;
+    $(".layui-nav-img").attr("src", user.user_pic).show;
   } else {
     $(".layui-nav-img").hide();
     // 如果没有用户头像，就取名称的第一个字母自定义个头像
